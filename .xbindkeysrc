@@ -1,0 +1,31 @@
+# Mute/unmute
+"amixer set Master toggle"
+	XF86AudioMute
+
+# Increase volume
+"amixer set Master 5%+"
+	XF86AudioRaiseVolume
+
+# Decrease volume
+"amixer set Master 5%-"
+	XF86AudioLowerVolume
+
+# Increase brightness
+"xbacklight -inc 20"
+	XF86MonBrightnessUp
+
+# Decrease brightness
+"xbacklight -dec 20"
+	XF86MonBrightnessDown
+
+# Open web browser
+"firefox"
+	XF86HomePage
+
+# Open file manager
+"thunar"
+	XF86MyComputer
+
+# Open calculator
+"xcalc"
+	XF86Calculator

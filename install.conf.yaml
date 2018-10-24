@@ -29,6 +29,5 @@
     ~/.config/pulse:
         create: true
         path: pulse
-    ~/.vimrc: vimrc
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources

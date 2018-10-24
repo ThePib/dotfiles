@@ -1,39 +1,20 @@
 - defaults:
     link:
+      create: true
       relink: true
 
 - clean: ['~']
 
 - link:
-    ~/.config/alacritty/alacritty.yml:
-        create: true
-        path: alacritty/alacritty.yml
-    ~/.config/albert/albert.conf:
-        create: true
-        path: albert/albert.conf
-    ~/.config/fish/config.fish:
-        create: true
-        path: fish/config.fish
-    ~/.config/gtk-3.0/settings.ini:
-        create: true
-        path: gtk-3.0/settings.ini
-    ~/.config/i3/config:
-        create: true
-        path: i3/config
-    ~/.config/nvim/init.vim:
-        create: true
-        path: nvim/init.vim
-    ~/.config/polybar/config:
-        create: true
-        path: polybar/config
-    ~/.config/polybar/launch.sh:
-        create: true
-        path: polybar/launch.sh
-    ~/.config/polybar/pkg:
-        create: true
-        path: polybar/pkg
-    ~/.config/pulse/default.pa:
-        create: true
-        path: pulse/default.pa
+    ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
+    ~/.config/albert/albert.conf: albert/albert.conf
+    ~/.config/fish/config.fish: fish/config.fish
+    ~/.config/gtk-3.0/settings.ini: gtk-3.0/settings.ini
+    ~/.config/i3/config: i3/config
+    ~/.config/nvim/init.vim: nvim/init.vim
+    ~/.config/polybar/config: polybar/config
+    ~/.config/polybar/launch.sh: polybar/launch.sh
+    ~/.config/polybar/pkg: polybar/pkg
+    ~/.config/pulse/default.pa: pulse/default.pa
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources

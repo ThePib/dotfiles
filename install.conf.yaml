@@ -5,29 +5,35 @@
 - clean: ['~']
 
 - link:
-    ~/.config/alacritty:
+    ~/.config/alacritty/alacritty.yml:
         create: true
-        path: alacritty
-    ~/.config/albert:
+        path: alacritty/alacritty.yml
+    ~/.config/albert/albert.conf:
         create: true
-        path: albert
-    ~/.config/fish:
+        path: albert/albert.conf
+    ~/.config/fish/config.fish:
         create: true
-        path: fish
-    ~/.config/gtk-3.0:
+        path: fish/config.fish
+    ~/.config/gtk-3.0/settings.ini:
         create: true
-        path: gtk-3.0
-    ~/.config/i3:
+        path: gtk-3.0/settings.ini
+    ~/.config/i3/config:
         create: true
-        path: i3
-    ~/.config/nvim:
+        path: i3/config
+    ~/.config/nvim/init.vim:
         create: true
-        path: nvim
-    ~/.config/polybar:
+        path: nvim/init.vim
+    ~/.config/polybar/config:
         create: true
-        path: polybar
-    ~/.config/pulse:
+        path: polybar/config
+    ~/.config/polybar/launch.sh:
         create: true
-        path: pulse
+        path: polybar/launch.sh
+    ~/.config/polybar/pkg:
+        create: true
+        path: polybar/pkg
+    ~/.config/pulse/default.pa:
+        create: true
+        path: pulse/default.pa
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources

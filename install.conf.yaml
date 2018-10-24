@@ -3,3 +3,32 @@
       relink: true
 
 - clean: ['~']
+
+- link:
+    ~/.config/alacritty:
+        create: true
+        path: alacritty
+    ~/.config/albert:
+        create: true
+        path: albert
+    ~/.config/fish:
+        create: true
+        path: fish
+    ~/.config/gtk-3.0:
+        create: true
+        path: gtk-3.0
+    ~/.config/i3:
+        create: true
+        path: i3
+    ~/.config/nvim:
+        create: true
+        path: nvim
+    ~/.config/polybar:
+        create: true
+        path: polybar
+    ~/.config/pulse:
+        create: true
+        path: pulse
+    ~/.vimrc: vimrc
+    ~/.xinitrc: xinitrc
+    ~/.Xresources: Xresources

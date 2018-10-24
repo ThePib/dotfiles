@@ -2,7 +2,7 @@ set nocompatible
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'ntpeters/vim-better-whitespace'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
@@ -24,4 +24,3 @@ set colorcolumn=81,91,101
 highlight ColorColumn ctermbg=52
 
 let g:airline_powerline_fonts = 1
-let g:deoplete#enable_at_startup = 1

@@ -1,6 +1,7 @@
 set nocompatible
 
 call plug#begin('~/.local/share/nvim/plugged')
+Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'

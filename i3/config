@@ -86,6 +86,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 assign [class="^org.remmina.Remmina$"] $ws5
 assign [class="^keepassxc$"] $ws6
 assign [class="^Seahorse$"] $ws6
+assign [class="^Pidgin$"] $ws7
 assign [class="^TelegramDesktop"] $ws7
 assign [class="^Firefox$"] $ws8
 assign [class="^Thunar$"] $ws9

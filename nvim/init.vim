@@ -8,6 +8,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+au BufRead,BufNewFile *.bazel,*.bzl set filetype=bzl
+
 set clipboard=unnamedplus
 
 set shiftwidth=4

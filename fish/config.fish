@@ -8,7 +8,7 @@ alias otp='oathtool --totp -b (cat $HOME/.pd_otp_secret) | xclip -sel clip'
 alias vim='nvim'
 
 set -x EDITOR nvim
-set -x TERMINAL alacritty
+set -x TERMINAL kitty
 set -x PATH $HOME/.cargo/bin $PATH
 set -x VISUAL nvim
 

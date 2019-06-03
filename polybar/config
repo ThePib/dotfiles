@@ -147,6 +147,7 @@ label-visible-font = 2
 type = internal/battery
 battery = BAT0
 adapter = AC0
+full-at = 98
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
@@ -160,6 +161,9 @@ format-charging-prefix-foreground = ${colors.yellow-alt}
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-font = 2
 format-discharging-foreground = ${colors.yellow-alt}
+format-full-prefix = " "
+format-full-prefix-font = 2
+format-full-prefix-foreground = ${colors.yellow-alt}
 
 ;**************************
 ; Updates module settings

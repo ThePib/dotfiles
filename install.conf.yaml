@@ -17,6 +17,7 @@
     ~/.config/polybar/launch.sh: polybar/launch.sh
     ~/.config/polybar/pkg: polybar/pkg
     ~/.config/pulse/default.pa: pulse/default.pa
+    ~/.config/rofi/config: rofi/config
     ~/.gtkrc-2.0: gtkrc-2.0
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources

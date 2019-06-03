@@ -4,7 +4,6 @@ alias l='exa'
 alias ls='exa'
 alias ll='exa -lgh --git'
 alias la='exa -algh --git'
-alias otp='oathtool --totp -b (cat $HOME/.pd_otp_secret) | xclip -sel clip'
 alias vim='nvim'
 
 set -x EDITOR nvim

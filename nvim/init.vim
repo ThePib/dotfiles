@@ -1,8 +1,10 @@
 set nocompatible
 
 call plug#begin('~/.local/share/nvim/plugged')
+Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'rodjek/vim-puppet'
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -29,3 +31,6 @@ set colorcolumn=81,91,101
 highlight ColorColumn ctermbg=52
 
 let g:airline_powerline_fonts = 1
+
+let g:terraform_align = 1
+let g:terraform_fmt_on_save = 1

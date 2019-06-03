@@ -6,8 +6,6 @@
 - clean: ['~']
 
 - link:
-    ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
-    ~/.config/albert/albert.conf: albert/albert.conf
     ~/.config/fish/config.fish: fish/config.fish
     ~/.config/gtk-3.0/settings.ini: gtk-3.0/settings.ini
     ~/.config/i3/config: i3/config

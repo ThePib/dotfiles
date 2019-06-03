@@ -51,18 +51,18 @@ margin-bottom = 0
 ;
 ;********************************************************
 
-[bar/screen1]
-inherit = bar/base
-monitor   = DP-2
-width     = 1920
-
 [bar/base]
-bottom   = true
-height   = 30
-offset-x  = 10
-offset-y  = 10
+bottom            = true
+height            = 30
+offset-x          = 10
+offset-y          = 10
 override-redirect = false
-fixed-center = true
+fixed-center      = true
+
+[bar/current]
+inherit = bar/base
+monitor = ${env:MONITOR:eDP-1-1}
+width   = 100%
 
 background = 0
 foreground = ${colors.fg}

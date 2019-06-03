@@ -143,5 +143,6 @@ exec feh --bg-fill wall.jpg
 exec compton -b
 exec numlockx on
 exec nm-applet
+exec blueman-applet
 exec albert
 exec xset -b

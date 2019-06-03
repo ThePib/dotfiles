@@ -90,7 +90,7 @@ tray-background = 0
 
 modules-left = date time
 modules-center = i3
-modules-right = updates pulseaudio temperature cpu memory eth
+modules-right = updates battery pulseaudio temperature cpu memory eth
 
 
 ;*********************
@@ -138,6 +138,28 @@ label-visible-foreground = ${colors.fg}
 label-visible-background = 0
 label-visible-padding = 1
 label-visible-font = 2
+
+;**************************
+; Battery module settings
+;**************************
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC0
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-font = 2
+ramp-capacity-foreground = ${colors.yellow-alt}
+format-charging-prefix = " "
+format-charging-prefix-font = 2
+format-charging-prefix-foreground = ${colors.yellow-alt}
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-font = 2
+format-discharging-foreground = ${colors.yellow-alt}
 
 ;**************************
 ; Updates module settings

@@ -17,6 +17,9 @@ set -g theme_color_scheme zenburn
 set -g theme_display_cmd_duration no
 set -g theme_display_date no
 
+set -e SSH_AGENT_PID
+set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+
 if test -z $DISPLAY; and test (tty) = "/dev/tty1"
 	exec startx
 end

@@ -8,7 +8,7 @@ alias vim='nvim'
 
 set -x EDITOR nvim
 set -x NPM_CONFIG_PREFIX $HOME/.node_modules
-set -x PATH $HOME/.node_modules/bin $HOME/.cargo/bin $PATH
+set -x PATH $HOME/.node_modules/bin $HOME/.cargo/bin $HOME/.bin $PATH
 set -x TERM xterm-256color
 set -x TERMINAL kitty
 set -x VISUAL nvim

@@ -8,7 +8,7 @@ alias vim='nvim'
 
 set -x EDITOR nvim
 set -x NPM_CONFIG_PREFIX $HOME/.node_modules
-set -x PATH $HOME/.node_modules/bin $HOME/.cargo/bin $HOME/.bin $PATH
+set -x PATH (python -m site --user-base)/bin $HOME/go/bin $HOME/.cargo/bin $HOME/.node_modules/bin $HOME/.bin /usr/local/go/bin $PATH
 set -x TERM xterm-256color
 set -x TERMINAL kitty
 set -x VISUAL nvim
@@ -20,6 +20,13 @@ set -g theme_display_k8s_context yes
 
 set -e SSH_AGENT_PID
 set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+
+eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+eval (python -m virtualfish)
+
+# +++ Homebrew paths
+set -g fish_user_paths "/home/linuxbrew/.linuxbrew/opt/helm@2/bin" $fish_user_paths
+# --- Homebrew paths
 
 if test -z $DISPLAY; and test (tty) = "/dev/tty1"
 	exec startx

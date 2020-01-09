@@ -11,7 +11,7 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 au BufRead,BufNewFile *.bazel,*.bzl set filetype=bzl
-au Filetype plaintex,tex,text set textwidth=80 shiftwidth=2
+au Filetype markdown,plaintex,tex,text set textwidth=80 shiftwidth=2
 au Filetype yml,yaml set shiftwidth=2 tabstop=2
 
 set clipboard=unnamedplus

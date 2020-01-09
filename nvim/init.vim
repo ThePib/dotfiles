@@ -5,7 +5,6 @@ Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'rodjek/vim-puppet'
-Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()

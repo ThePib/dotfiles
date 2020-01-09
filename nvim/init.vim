@@ -1,6 +1,7 @@
 set nocompatible
 
 call plug#begin('~/.local/share/nvim/plugged')
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
@@ -33,6 +34,9 @@ set colorcolumn=81,91,101
 highlight ColorColumn ctermbg=52
 
 let g:airline_powerline_fonts = 1
+
+let g:go_auto_type_info = 1
+let g:go_fmt_command = "goimports"
 
 let g:terraform_align = 1
 let g:terraform_fmt_on_save = 1

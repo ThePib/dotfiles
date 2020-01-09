@@ -138,11 +138,9 @@ hide_edge_borders smart_no_gaps
 #smart_borders on
 gaps inner 10
 
-exec xinput --set-prop "DualPoint Stick" "Device Enabled" 0 # Disable the trackstick since it seems to be sentient AND annoying at the same time
 exec feh --bg-fill wall.jpg
 exec compton -b
 exec numlockx on
 exec nm-applet
 exec blueman-applet
-exec albert
 exec xset -b

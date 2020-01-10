@@ -5,8 +5,10 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'preservim/nerdtree'
 Plug 'rodjek/vim-puppet'
 Plug 'rust-lang/rust.vim'
+Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
@@ -14,6 +16,8 @@ call plug#end()
 au BufRead,BufNewFile *.bazel,*.bzl set filetype=bzl
 au Filetype markdown,plaintex,tex,text set textwidth=80 shiftwidth=2
 au Filetype yml,yaml set shiftwidth=2 tabstop=2
+
+nnoremap <C-g> :NERDTreeToggle<CR>
 
 set clipboard=unnamedplus
 

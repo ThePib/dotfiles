@@ -28,6 +28,8 @@ eval (python -m virtualfish)
 set -g fish_user_paths "/home/linuxbrew/.linuxbrew/opt/helm@2/bin" $fish_user_paths
 # --- Homebrew paths
 
+direnv hook fish | source
+
 if test -z $DISPLAY; and test (tty) = "/dev/tty1"
 	exec startx
 end

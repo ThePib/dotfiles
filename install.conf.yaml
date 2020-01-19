@@ -17,5 +17,6 @@
     ~/.config/pulse/default.pa: pulse/default.pa
     ~/.config/rofi/config: rofi/config
     ~/.gtkrc-2.0: gtkrc-2.0
+    ~/.tmux.conf: tmux.conf
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources

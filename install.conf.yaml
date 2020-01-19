@@ -18,6 +18,5 @@
     ~/.config/pulse/default.pa: pulse/default.pa
     ~/.config/rofi/config: rofi/config
     ~/.gtkrc-2.0: gtkrc-2.0
-    ~/.ssh/config: ssh/config
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources

@@ -2,7 +2,7 @@ set nocompatible
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'dense-analysis/ale'
-Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
+Plug 'deoplete-plugins/deoplete-go', { 'do': 'make' }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'

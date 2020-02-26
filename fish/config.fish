@@ -22,7 +22,7 @@ set -g theme_display_k8s_context yes
 set -e SSH_AGENT_PID
 set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 
-eval (python -m virtualfish)
+eval (python3 -m virtualfish)
 
 direnv hook fish | source
 

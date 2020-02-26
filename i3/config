@@ -48,16 +48,16 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-workspace $ws1 output DP-2-2
-workspace $ws2 output DP-2-2
-workspace $ws3 output DP-2-2
-workspace $ws4 output DP-2-2
-workspace $ws5 output DP-2-2
-workspace $ws6 output DP-1-2
-workspace $ws7 output DP-1-2
-workspace $ws8 output DP-1-2
-workspace $ws9 output eDP-1
-workspace $ws10 output eDP-1
+workspace $ws1 output DP-1
+workspace $ws2 output DP-1
+workspace $ws3 output DP-1
+workspace $ws4 output DP-1
+workspace $ws5 output DP-1
+workspace $ws6 output HDMI-0
+workspace $ws7 output HDMI-0
+workspace $ws8 output HDMI-0
+workspace $ws9 output eDP-1-1
+workspace $ws10 output eDP-1-1
 
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -138,7 +138,6 @@ hide_edge_borders smart_no_gaps
 #smart_borders on
 gaps inner 10
 
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec feh --bg-fill wall.jpg
 exec compton -b
 exec numlockx on

@@ -11,7 +11,6 @@ Plug 'preservim/nerdtree'
 Plug 'rodjek/vim-puppet'
 Plug 'rust-lang/rust.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-obsession'
 Plug 'vim-airline/vim-airline'

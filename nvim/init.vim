@@ -7,6 +7,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'posva/vim-vue'
 Plug 'preservim/nerdtree'
 Plug 'rodjek/vim-puppet'
 Plug 'rust-lang/rust.vim'

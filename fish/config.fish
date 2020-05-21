@@ -23,8 +23,6 @@ set -e SSH_AGENT_PID
 set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 set -x VAGRANT_DEFAULT_PROVIDER virtualbox
 
-eval (python3 -m virtualfish)
-
 direnv hook fish | source
 
 if test -z $DISPLAY; and test (tty) = "/dev/tty1"

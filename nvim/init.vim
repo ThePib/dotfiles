@@ -3,6 +3,7 @@ set nocompatible
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'dense-analysis/ale'
 Plug 'deoplete-plugins/deoplete-go', { 'do': 'make' }
+Plug 'ElmCast/elm-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
@@ -19,7 +20,7 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 au BufRead,BufNewFile *.bazel,*.bzl set filetype=bzl
-au Filetype javascript,typescript set shiftwidth=2 tabstop=2
+au Filetype javascript,typescript,vue set shiftwidth=2 tabstop=2
 au Filetype json set shiftwidth=2 tabstop=2
 au Filetype markdown,plaintex,tex,text set textwidth=80 shiftwidth=2
 au Filetype yml,yaml set shiftwidth=2 tabstop=2

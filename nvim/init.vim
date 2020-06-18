@@ -28,6 +28,7 @@ au Filetype yml,yaml set shiftwidth=2 tabstop=2
 let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
 
+let g:ale_linters = { 'elm': ['elm_ls'] }
 let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠'
 

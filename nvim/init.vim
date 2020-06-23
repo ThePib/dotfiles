@@ -1,18 +1,17 @@
 set nocompatible
 
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'dense-analysis/ale'
-Plug 'deoplete-plugins/deoplete-go', { 'do': 'make' }
-Plug 'ElmCast/elm-vim'
+Plug 'andys8/vim-elm-syntax'
+Plug 'elm-tooling/elm-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'posva/vim-vue'
 Plug 'preservim/nerdtree'
 Plug 'rodjek/vim-puppet'
 Plug 'rust-lang/rust.vim'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-obsession'
 Plug 'vim-airline/vim-airline'

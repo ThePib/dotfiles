@@ -6,6 +6,7 @@ Plug 'elm-tooling/elm-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
+Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'posva/vim-vue'
@@ -18,6 +19,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+au vimenter * colorscheme gruvbox
 au BufRead,BufNewFile *.bazel,*.bzl set filetype=bzl
 au Filetype javascript,typescript,vue set shiftwidth=2 tabstop=2
 au Filetype json set shiftwidth=2 tabstop=2
@@ -57,5 +59,6 @@ set ruler
 set scrolloff=10
 set undolevels=1000
 
+set termguicolors
 set colorcolumn=81,91,101
 highlight ColorColumn ctermbg=52
